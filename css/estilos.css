@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-custom {
+  background-color: #004d40 !important;
+}
+
+.text-custom {
+  color: #004d40 !important;
+}
+
+.btn-custom {
+  background-color: #ffffff;
+  color: #004d40;
+  border: 2px solid #004d40;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #004d40;
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #004d40 0%, #00796b 100%);
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: #00332e;
+}
+
+.form-control:focus {
+  border-color: #004d40;
+  box-shadow: 0 0 0 0.2rem rgba(0, 77, 64, 0.25);
+}
